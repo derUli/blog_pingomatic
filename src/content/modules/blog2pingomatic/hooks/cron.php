@@ -3,7 +3,6 @@ if (containsModule ( null, "blog" )) {
 	if (! function_exists ( "get_requested_pagename" ) and ! is_admin_dir ()) {
 		include_once "templating.php";
 	}
-
 	if (! function_exists ( "rootDirectory" )) {
 		function rootDirectory() {
 			$pageURL = 'http';
