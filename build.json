@@ -4,5 +4,5 @@
    "description" : "Pingomatic for Blog",
    "categories" : ["blog", "ping"],
    "compatible_from" : "2017.1",
-   "dependencies" : ["blog"];
+   "dependencies" : ["blog"]
 }

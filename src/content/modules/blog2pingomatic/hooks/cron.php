@@ -45,4 +45,3 @@ if (containsModule ( null, "blog" )) {
 		}
 		}
 }
-?>
