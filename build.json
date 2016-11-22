@@ -1,0 +1,7 @@
+{
+   "id" : "blog2pingomatic",
+   "version" : "1.0",
+   "description" : "Pingomatic for Blog",
+   "categories" : ["blog", "ping"],
+   "compatible_from" : "2017.1",
+}
