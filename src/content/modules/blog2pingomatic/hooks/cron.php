@@ -40,9 +40,6 @@ if (containsModule ( null, "blog" )) {
 				$post = $title . " " . $link;
 				$controller = ControllerRegistry::get("PingomaticController");
 				$result = $controller->pingomatic($title, link);
-				echo "<!--";
-				var_dump($result);
-				echo "-->";
 				if($result["status"] == "ok"){
 					db_query ( "UPDATE " . tbname ( "blog" ) . " set posted2pingomatic = 1 where id = $id" );
 				}
