@@ -1,5 +1,5 @@
 <?php
-class PingomaticController{
+class PingomaticController extends Controller{
 	 /*
 	--------------------------------------------
 	 $title contains the title of the page you're sending
