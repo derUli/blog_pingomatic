@@ -1,6 +1,6 @@
 {
 	"source" : "extend",
-	"version" : "1.0",
+	"version" : "1.0.1",
 	"embed" : false,
 	"controllers" : {
 	     "PingomaticController" : "controller/pingomatic_controller"

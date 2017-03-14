@@ -32,12 +32,12 @@ if (containsModule ( null, "blog" )) {
 			$id = $row ["id"];
 			$title = $row ["title"];
 			$seo_shortname = $row ["seo_shortname"];
-			
+
 			$link = rootDirectory () . get_requested_pagename () . ".html?single=" . $seo_shortname;
-			
+
 			$post = $title . " " . $link;
 			$controller = ControllerRegistry::get ( "PingomaticController" );
-			$result = $controller->pingomatic ( $title, link );
+			$result = $controller->pingomatic ( $title, $link );
 			if ($result ["status"] == "ok") {
 				db_query ( "UPDATE " . tbname ( "blog" ) . " set posted2pingomatic = 1 where id = $id" );
 			}
