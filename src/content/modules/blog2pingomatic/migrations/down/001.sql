@@ -1,0 +1,1 @@
+ALTER TABLE {prefix}blog DROP posted2pingomatic

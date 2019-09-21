@@ -1,8 +1,8 @@
 {
    "id" : "blog2pingomatic",
-   "version" : "1.0.1",
+   "version" : "1.0.2",
    "description" : "Pingomatic for Blog",
    "categories" : ["blog", "ping"],
-   "compatible_from" : "2017.1",
+   "compatible_from" : "2019.3.1",
    "dependencies" : ["blog"]
 }

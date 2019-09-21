@@ -1,0 +1,1 @@
+ALTER TABLE {prefix}blog ADD posted2pingomatic BOOLEAN not null default 0;
